@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "sensor_readings"; // replace with your DB name
+$dbname = "sensor_readings"; // data base name
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
